@@ -19,5 +19,5 @@ graph = create_react_agent(
     model=ChatAnthropic(model="claude-sonnet-5"),
     tools=[get_weather],
     prompt="You are a helpful assistant.",
-    name="Demo Agent",
+    name="dons_test_agent",
 )
